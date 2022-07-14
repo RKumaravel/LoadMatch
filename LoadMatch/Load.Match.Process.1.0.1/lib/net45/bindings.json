@@ -1,0 +1,86 @@
+{
+  "version": "1.0",
+  "resources": [
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "IMPricingEngine_MiLogistx_URL",
+          "isExpression": false
+        },
+        "folderPath": {
+          "defaultValue": "Matson",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "row(\"Asset\").ToString",
+          "isExpression": false
+        },
+        "folderPath": {
+          "defaultValue": "row(\"OrchestratorAssetFolder\").ToString",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "IMPricingEngine_ExcelSheetName",
+          "isExpression": false
+        },
+        "folderPath": {
+          "defaultValue": "Matson",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "IMPricingEngine_SharedPath",
+          "isExpression": false
+        },
+        "folderPath": {
+          "defaultValue": "Matson",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "IMPricingEngine_BusinessTeam",
+          "isExpression": false
+        },
+        "folderPath": {
+          "defaultValue": "Matson",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "queue",
+      "metadata": {
+        "folderPath": {
+          "isExpression": true
+        }
+      }
+    },
+    {
+      "resource": "queue",
+      "metadata": {
+        "folderPath": {
+          "isExpression": true
+        }
+      }
+    }
+  ]
+}

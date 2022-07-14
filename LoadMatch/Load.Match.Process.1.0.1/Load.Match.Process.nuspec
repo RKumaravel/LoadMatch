@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Load.Match.Process</id>
+    <version>1.0.1</version>
+    <title>Load Match Process</title>
+    <authors>uipath</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Robotic Enterprise Framework</description>
+    <tags>VisualBasic VB UiPathStudioProcess</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Matson_EmailLibrary" version="[1.1.0]" />
+        <dependency id="Matson_Milo" version="[1.1.9]" />
+        <dependency id="Matson_ReadEmailLibrary" version="[1.1.29]" />
+        <dependency id="UiPath.Excel.Activities" version="[2.11.4]" />
+        <dependency id="UiPath.System.Activities" version="[21.10.4]" />
+        <dependency id="UiPath.Testing.Activities" version="[1.4.6]" />
+        <dependency id="UiPath.UIAutomation.Activities" version="[21.10.4]" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
